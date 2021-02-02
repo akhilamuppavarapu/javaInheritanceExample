@@ -31,4 +31,9 @@ public class Teacher  extends Person{
         this.salary = salary;
     }
 
+    public String displayDetails() {
+        return super.displayDetails() + " " + subjectName + " " + salary;
+    }
+
+
 }

@@ -42,6 +42,10 @@ public class Student extends Person{
         this.teacherName = teacherName;
     }
 
+    public String displayDetails() {
+        super.displayDetails();
+        return super.displayDetails() + " " +  studentId + " " +  courseName + " " +  teacherName;
+    }
 
 
 }
